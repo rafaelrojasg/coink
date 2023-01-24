@@ -1,0 +1,86 @@
+<div class="backoffice">
+    <div class="menutop">
+        <app-menutop></app-menutop>
+    </div>
+    <div class="log">
+        <div class="logicon"></div>
+    </div>
+    <div class="lateral"></div>
+    <div class="solicitud">SOLICITUD TARJETAS</div>
+    <div class="fotoperfil"></div>
+    <div class="username">jeff</div>
+    <div class="seclogo"></div>
+    <div class="search"></div>
+    <div class="buscar">Buscar</div>
+    <form [formGroup]="formulario">
+        <div class="lab1">Usuario</div>
+        <input type="text" class="nombre" placeholder="Nombre" formControlName="nombre">
+        <div class="fechas">Fechas</div>
+        <input type="text" class="fecha" placeholder="dia/mes/año-dia/mes/año" 
+                formControlName="fecha">
+        <button type="button" class="botlimpiar" (click)="borrar()">Limpiar filtros</button>
+        <button type="button" class="botbuscar" (click)="buscar()">Buscar</button>
+    </form>
+    <div class="tit">Tarjetas Visa Dispensadores / <span class="tit2"> Solicitud tarjetas </span></div>
+    <button type="button" class="solicitar">Solicitar tarjetas</button>
+    <div class="tabla">
+        <div class="mostrando">
+            Mostrando {{ mtr }} de {{ maxres }}
+        </div>
+        <div class="izq" (click)="atras(1)"></div>
+        <div class="der" (click)="adelante(1)"></div>
+        <div *ngIf="paginas[0]" class="bot b1" [ngClass]="{'bv':paginas[0]===page}">{{paginas[0]}}</div>
+        <div *ngIf="paginas[1]" class="bot b2" [ngClass]="{'bv':paginas[1]===page}">{{paginas[1]}}</div>
+        <div *ngIf="paginas[2]" class="bot b3" [ngClass]="{'bv':paginas[2]===page}">{{paginas[2]}}</div>
+        <div *ngIf="paginas[3]" class="bot b4" [ngClass]="{'bv':paginas[3]===page}">{{paginas[3]}}</div>
+        <div *ngIf="paginas[4]" class="bot b5" [ngClass]="{'bv':paginas[4]===page}">{{paginas[4]}}</div>
+        <div class="tabtit"></div>
+        <div class="utit">Usuario</div>
+        <div class="ntit">Número de tarjetas solicitadas</div>
+        <div class="htit">Fecha-Hora</div>
+        <div class="etit">Estado</div>
+        <ng-container *ngFor="let user of users; let i = index">
+            <div class="tabtit2" [ngClass]="{
+                'tabtit21': i===0,
+                'tabtit22': i===1,
+                'tabtit23': i===2,
+                'tabtit24': i===3,
+                'tabtit25': i===4
+            }"></div>
+            <div class="utit2" [ngClass]="{
+                'utit21': i===0,
+                'utit22': i===1,
+                'utit23': i===2,
+                'utit24': i===3,
+                'utit25': i===4
+            }"> {{ user.name }} </div>
+            <div class="utit2" [ngClass]="{
+                'ntit21': i===0,
+                'ntit22': i===1,
+                'ntit23': i===2,
+                'ntit24': i===3,
+                'ntit25': i===4
+            }"> {{ user.id }} </div>
+            <div class="htit2" [ngClass]="{
+                'htit21': i===0,
+                'htit22': i===1,
+                'htit23': i===2,
+                'htit24': i===3,
+                'htit25': i===4
+            }"> {{ user.created | date:'dd/MM/yyyy hh:mm a' }} </div>
+            <div class="etit2" [ngClass]="{
+                'htit21': i===0,
+                'htit22': i===1,
+                'htit23': i===2,
+                'htit24': i===3,
+                'htit25': i===4
+            }"> {{ user.status }} </div>
+        </ng-container>
+    </div>
+    <div class="menu1">Tarjetas Visa en dispensadores</div>
+    <div *ngIf="expandir" class="menu2">Crear dispensador</div>
+    <div *ngIf="expandir" class="menu3">Monitorear y editar dispensadores</div>
+    <div *ngIf="expandir" class="menu4"></div>
+    <div *ngIf="expandir" class="menu5">Solicitud tarjetas</div>
+    <div [ngClass]="{'menu6': expandir, 'menu7': !expandir }" (click)="expandir=!expandir"></div>
+</div>

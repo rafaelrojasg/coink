@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+
+    /* Colors: */
+    --ffb71b: #FFB71B;
+    ---be67ff: #BE67FF;
+    ---f44336: #F44336;
+    ---c4f6dc: #C4F6DC;
+    ---138000: #138000;
+    ---00a905: #00A905;
+    ---001b24: #001B24;
+    --unnamed-color-ec4d34: #EC4D34;
+    ---e1fecb: #E1FECB;
+    ---50c9a0: #50C9A0;
+    ---9e9e9e: #9E9E9E;
+    ---6ecdff: #6ECDFF;
+    ---3eb2ff: #3EB2FF;
+    ---f3fff8: #F3FFF8;
+    ---757575: #757575;
+    ---ffffff: #FFFFFF;
+    ---4d4d4e: #4D4D4E;
+    ---f4fef5: #F4FEF5;
+    ---1eeb00: #1EEB00;
+    ---003336: #003336;
+    ---d3d3d3: #D3D3D3;
+    ---7fff5d: #7FFF5D;
+    ---eeeeee: #EEEEEE;
+    ---f6f6f6: #F6F6F6;
+    ---fcfffa: #FCFFFA;
+    ---004b40: #004B40;
+    --fondo-disabled-f9f9f9: #F9F9F9;
+    --hover-borde-7d7c7c: #7D7C7C;
+    ---77dd37: #77DD37;
+    ---2bbc46: #2BBC46;
+    --gris-líneas: #BDBDBD;
+    --white: #FDFDFD;
+    ---212121: #212121;
+    
+    /* Font/text values */
+    --unnamed-font-family-avenir-lt-std: Avenir LT Std;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-17: 17px;
+    --unnamed-line-spacing-20: 20px;
+    }
+    
+    /* Character Styles */
+    .label {
+    font-family: var(--unnamed-font-family-avenir-lt-std);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-17);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---212121);
+    }
+    .input {
+    font-family: var(--unnamed-font-family-avenir-lt-std);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-20);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---212121);
+    }
+    
+    body {
+        height: 66.56rem;
+        width: 86.68rem;
+    }

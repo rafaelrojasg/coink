@@ -1,0 +1,49 @@
+.dropdown {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.438rem;
+    left: 1.563rem;
+    width: 1.688rem;
+    height: 1.125rem;
+
+    /* UI Properties */
+    opacity: 1;
+    background: url('../../../assets/005.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.313rem;
+    left: 32.94rem;
+    width: 5.875rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/18px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.navlogo {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.188rem;
+    left: 68rem;
+    width: 1.625rem;
+    height: 1.625rem;
+
+    /* UI Properties */
+    background: url('../../../assets/006.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}

@@ -1,0 +1,813 @@
+.backoffice {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 86rem;
+    height: 66.875rem;
+
+    /* UI Properties */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.menutop {
+    /* Layout Properties */
+    position: absolute;
+    top: 0rem;
+    left: 15rem;
+    width: 71rem;
+    height: 3.94rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #004B40 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.log {
+    /* Layout Properties */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 15.063rem;
+    height: 3.94rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #004B40 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.logicon {
+    /* Layout Properties */
+    position: absolute;
+    top: 0.94rem;
+    left: 4.313rem;
+    width: 7rem;
+    height: 2.063rem;
+
+    /* UI Properties */
+    background: url('../../../assets/007.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.lateral {
+    /* Layout Properties */
+    position: absolute;
+    top: 3.94rem;
+    left: 0rem;
+    width: 15.063rem;
+    height: 62rem;
+
+    /* UI Properties */
+    background: var(---ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.solicitud {
+    /* Layout Properties */
+    position: absolute;
+    top: 10.063rem;
+    left: 18.375rem;
+    width: 20rem;
+    height: 2.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold 28px/32px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal bold 28px/32px Roboto;
+    letter-spacing: 0px;
+    color: #004B40;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.fotoperfil {
+    /* Layout Properties */
+    position: absolute;
+    top: 5.875rem;
+    left: 4.813rem;
+    width: 5.438rem;
+    height: 5.438rem;
+
+    /* UI Properties */
+    background: #D1FBD9 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 8px #00000029;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.username {
+    /* Layout Properties */
+    position: absolute;
+    top: 11.813rem;
+    left: 7.313rem;
+    width: 1.5rem;
+    height: 1.375rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/18px Open Sans;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal normal 16px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.seclogo {
+    /* Layout Properties */
+    position: absolute;
+    top: 12rem;
+    left: 6.25rem;
+    width: 0.57rem;
+    height: 0.75rem;
+
+    /* UI Properties */
+    background: url('../../../assets/008.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.search {
+    /* Layout Properties */
+    position: absolute;
+    top: 13.1rem;
+    left: 18.438rem;
+    width: 1.25rem;
+    height: 1.25rem;
+
+    /* UI Properties */
+    background: url('../../../assets/009.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.buscar {
+    /* Layout Properties */
+    position: absolute;
+    top: 13.188rem;
+    left: 20.313rem;
+    width: 3.813rem;
+    height: 1.5rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium 18px/24px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.lab1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 16.563rem;
+    left: 18.688rem;
+    width: 3.438rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.nombre {
+    /* Layout Properties */
+    position: absolute;
+    top: 18.688rem;
+    left: 18.688rem;
+    width: 11rem;
+    height: 1.2rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #5D5D5D;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    opacity: 1;
+}
+
+.fechas {
+    /* Layout Properties */
+    position: absolute;
+    top: 16.563rem;
+    left: 33.063rem;
+    width: 3.25rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.fecha {
+    /* Layout Properties */
+    position: absolute;
+    top: 18.688rem;
+    left: 33.063rem;
+    width: 11rem;
+    height: 1.2rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #5D5D5D;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    opacity: 1;
+}
+
+.botlimpiar {
+    /* Layout Properties */
+    position: absolute;
+    top: 22.313rem;
+    left: 18.438rem;
+    width: 10.375rem;
+    height: 2.375rem;
+
+    /* UI Properties */
+    border: 1px solid var(---004b40);
+    border: 1px solid #004B40;
+    border-radius: 2px;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/22px Open Sans;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.botbuscar {
+    /* Layout Properties */
+    position: absolute;
+    top: 22.313rem;
+    left: 30.25rem;
+    width: 10.375rem;
+    height: 2.375rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #004B40 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/22px Open Sans;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.tit {
+   /* Layout Properties */
+   position: absolute;
+    top: 6.75rem;
+    left: 18.375rem;
+    width: 21.188rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.tit2 {
+    color: #004B40;
+}  
+.solicitar {
+    /* Layout Properties */
+    position: absolute;
+    top: 25.25rem;
+    left: 72.875rem;
+    width: 10.375rem;
+    height: 2.375rem;
+
+    /* UI Properties */
+    border: 1px solid var(---004b40);
+    border: 1px solid #004B40;
+    border-radius: 2px;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/22px Open Sans;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.tabla {
+    /* Layout Properties */
+    position: absolute;
+    top: 28.813rem;
+    left: 18.438rem;
+    width: 64rem;
+    height: 33rem;
+
+    /* UI Properties */
+    background: var(---ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.menu1 {
+    /* Layout Properties */
+    position: absolute;
+    top: 16.375rem;
+    left: 0rem;
+    width: 15.063rem;
+    height: 4.313rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #004B40 0% 0% no-repeat padding-box;
+    font: var(--unnamed-font-style-normal) normal 900 var(--unnamed-font-size-16)/21px Avenir;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: left;
+    font: normal normal 900 16px/21px Avenir;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.menu2 {
+    /* Layout Properties */
+    position: absolute;
+    top: 21.438rem;
+    left: 3.125rem;
+    width: 8.313rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 900 var(--unnamed-font-size-16)/18px Avenir;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal 900 16px/18px Avenir;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.menu3 {
+    /* Layout Properties */
+    position: absolute;
+    top: 24.25rem;
+    left: 2.688rem;
+    width: 9.688rem;
+    height: 2.75rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 900 var(--unnamed-font-size-16)/18px Avenir;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal 900 16px/18px Avenir;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.menu4 {
+    /* Layout Properties */
+    position: absolute;
+    top: 27.563rem;
+    left: 0rem;
+    width: 15.063rem;
+    height: 2.938rem;
+
+    /* UI Properties */
+    background: #D1D1D1 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.menu5 {
+    /* Layout Properties */
+    position: absolute;
+    top: 28.375rem;
+    left: 2.625rem;
+    width: 7.313rem;
+    height: 1.313rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 900 var(--unnamed-font-size-16)/18px Avenir;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal 900 16px/18px Avenir;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.menu6 {
+    /* Layout Properties */
+    position: absolute;
+    top: 18.375rem;
+    left: 13rem;
+    width: 1rem;
+    height: 0.5rem;
+
+    /* UI Properties */
+    background: url('../../../assets/010.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.menu7 {
+    /* Layout Properties */
+    position: absolute;
+    top: 18.375rem;
+    left: 13rem;
+    width: 1rem;
+    height: 0.5rem;
+
+    /* UI Properties */
+    background: url('../../../assets/011.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.tabtit {
+    /* Layout Properties */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 4rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #004B40 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.utit {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.438rem;
+    left: 4.125rem;
+    width: 3rem;
+    height: 1.188rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/15px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 14px/15px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ntit {
+    /* Layout Properties */
+    position: absolute;
+    top: 0.75rem;
+    left: 20.313rem;
+    width: 8.313rem;
+    height: 2.563rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.htit {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.438rem;
+    left: 40.25rem;
+    width: 4.625rem;
+    height: 1.188rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.etit {
+    /* Layout Properties */
+    position: absolute;
+    top: 1.438rem;
+    left: 55.938rem;
+    width: 2.75rem;
+    height: 1.188rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.tabtit2 {
+    /* Layout Properties */
+    position: absolute;
+    left: 3%;
+    width: 94%;
+    height: 4rem;
+
+    /* UI Properties */
+    background: var(---004b40) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 2px #00000029;
+    opacity: 1;
+}
+
+.utit2 {
+    /* Layout Properties */
+    position: absolute;
+    width: 8rem;
+    height: 1.188rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+
+.htit2 {
+    /* Layout Properties */
+    position: absolute;
+    left: 40rem;
+    width: 6rem;
+    height: 1.188rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+
+.etit2 {
+    /* Layout Properties */
+    position: absolute;
+    width: 3rem;
+    height: 1.188rem;
+    left: 56rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #555555;
+    opacity: 1;
+}
+
+.tabtit21 {
+    top: 4.7rem;
+}
+
+.tabtit22 {
+    top: 9.4rem;
+}
+
+.tabtit23 {
+    top: 14.1rem;
+}
+
+.tabtit24 {
+    top: 18.8rem;
+}
+
+.tabtit25 {
+    top: 23.5rem;
+}
+
+.utit21 {
+    left: 1.625rem;
+    top: 5.8rem;
+}
+
+.utit22 {
+    left: 1.625rem;
+    top: 10.5rem;
+}
+
+.utit23 {
+    left: 1.625rem;
+    top: 15.2rem;
+}
+
+.utit24 {
+    left: 1.625rem;
+    top: 19.9rem;
+}
+
+.utit25 {
+    left: 1.625rem;
+    top: 24.6rem;
+}
+
+.ntit21 {
+    left: 20.5rem;
+    top: 5.8rem;
+}
+
+.ntit22 {
+    left: 20.5rem;
+    top: 10.5rem;
+}
+
+.ntit23 {
+    left: 20.5rem;
+    top: 15.2rem;
+}
+
+.ntit24 {
+    left: 20.5rem;
+    top: 19.9rem;
+}
+
+.ntit25 {
+    left: 20.5rem;
+    top: 24.6rem;
+}
+
+.htit21 {
+    top: 5.8rem;
+}
+
+.htit22 {
+    top: 10.5rem;
+}
+
+.htit23 {
+    top: 15.2rem;
+}
+
+.htit24 {
+    top: 19.9rem;
+}
+
+.htit25 {
+    top: 24.6rem;
+}
+
+.mostrando {
+    /* Layout Properties */
+    position: absolute;
+    top: 30.313rem;
+    left: 2.5rem;
+    width: 9.5rem;
+    height: 1.19rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/19px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #929292;
+    opacity: 1;
+}
+
+.izq {
+    /* Layout Properties */
+    position: absolute;
+    top: 30.5rem;
+    left: 49rem;
+    width: 0.5rem;
+    height: 0.875rem;
+
+    /* UI Properties */
+    background: url('../../../assets/012.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.der {
+    /* Layout Properties */
+    position: absolute;
+    top: 30.5rem;
+    left: 60rem;
+    width: 0.5rem;
+    height: 0.875rem;
+    
+    /* UI Properties */
+    background: url('../../../assets/013.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.bot {
+    /* Layout Properties */
+    position: absolute;
+    top: 30.3rem;
+    width: 1.5rem;
+    height: 1.438rem;
+    /* UI Properties */
+    
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/21px Roboto;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: center;
+    font: normal normal bold 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.b1 {
+    left: 50rem;
+}
+
+.b2 {
+    left: 52rem;
+}
+
+.b3 {
+    left: 54rem;
+}
+
+.b4 {
+    left: 56rem;
+}
+
+.b5 {
+    left: 58rem;
+}
+
+.bv {
+    background: var(---1eeb00) 0% 0% no-repeat padding-box;
+    background: #1EEB00 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}

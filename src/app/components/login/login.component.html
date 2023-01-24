@@ -1,0 +1,22 @@
+<form [formGroup]="formulario" (ngSubmit)="guardar()">
+    <div class="iniciar">Iniciar sesión en Coink</div>
+    <label class="comp_29">
+        Correo electrónico
+    </label>
+    <input type="text" class="correo" placeholder="Ingrese su correo"
+            formControlName="correo">
+    <div class="correo-icon"></div>
+    <label class="comp127">Contraseña</label>
+    <input type="text" class="contrasena" placeholder="Ingrese su contraseña"
+            formControlName="contrasena">
+    <div class="contrasena-icon"></div>
+    <input type="checkbox" class="caja" formControlName="check">
+    <div class="recordarme">Recordarme</div>
+    <button type="submit" [ngClass]="{
+        'offbutton': !formulario.valid,
+        'onbutton': formulario.valid
+    }">Iniciar sesión</button>
+    <div class="olvidaste">
+        ¿Olvidaste tu contraseña?
+    </div>
+</form>

@@ -1,0 +1,223 @@
+.iniciar {
+    /* Layout Properties */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 17rem;
+    height: 1.75rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal bold 23px/28px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---001b24);
+    text-align: left;
+    font: normal normal bold 23px/28px Montserrat;
+    letter-spacing: 0px;
+    color: #001B24;
+    opacity: 1;
+}
+
+.comp_29 {
+    /* Layout Properties */
+    position: absolute;
+    top: 3.06rem;
+    left: 0rem;
+    width: 28.625rem;
+    height: 1.06rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-avenir-lt-std);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---212121);
+    text-align: left;
+    font: normal normal normal 14px/17px Avenir LT Std;
+    letter-spacing: 0px;
+    color: #212121;
+    opacity: 1;
+}
+
+.correo {
+    /* Layout Properties */
+    position: absolute;
+    top: 4.5rem;
+    left: 0rem;
+    width: 28.625rem;
+    height: 3rem;
+    padding-left: 1rem;
+
+    /* UI Properties */
+    background: var(--white) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--gris-líneas);
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.correo-icon {
+    /* Layout Properties */
+    position: absolute;
+    top: 5.25rem;
+    left: 26rem;
+    width: 1.5rem;
+    height: 1.6rem;
+    background: url('../../../assets/003.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* UI Properties */
+    opacity: 1;
+}
+
+.comp127 {
+    /* Layout Properties */
+    position: absolute;
+    top: 10.06rem;
+    left: 0rem;
+    width: 15.68rem;
+    height: 1.06rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-avenir-lt-std);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---212121);
+    text-align: left;
+    font: normal normal normal 14px/17px Avenir LT Std;
+    letter-spacing: 0px;
+    color: #212121;
+    opacity: 1;
+}
+
+.contrasena {
+    /* Layout Properties */
+    position: absolute;
+    top: 11.5rem;
+    left: 0rem;
+    width: 28.625rem;
+    height: 3rem;
+    padding-left: 1rem;
+
+    /* UI Properties */
+    background: var(--white) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--gris-líneas);
+    background: #FDFDFD 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.contrasena-icon {
+    /* Layout Properties */
+    position: absolute;
+    top: 12.25rem;
+    left: 26rem;
+    width: 1.7rem;
+    height: 1.6rem;
+    background: url('../../../assets/004.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* UI Properties */
+    opacity: 1;
+}
+
+.caja {
+    /* Layout Properties */
+    position: absolute;
+    top: 16.06rem;
+    left: 0rem;
+    width: 0.875rem;
+    height: 0.875rem;
+
+    /* UI Properties */
+    background: var(---ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.recordarme {
+    /* Layout Properties */
+    position: absolute;
+    top: 16.1rem;
+    left: 1.3rem;
+    width: 5.56rem;
+    height: 1.125rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-14)/18px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---004b40);
+    text-align: left;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #004B40;
+    opacity: 1;
+}
+
+.offbutton {
+    /* Layout Properties */
+    position: absolute;
+    top: 22.375rem;
+    left: 4rem;
+    width: 20.625rem;
+    height: 2.813rem;
+
+    /* UI Properties */
+    background: var(---d3d3d3) 0% 0% no-repeat padding-box;
+    background: #D3D3D3 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #0000001C;
+    border-radius: 100px;
+    border: 0;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/19px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.onbutton {
+    /* Layout Properties */
+    position: absolute;
+    top: 22.375rem;
+    left: 4rem;
+    width: 20.625rem;
+    height: 2.813rem;
+
+    /* UI Properties */
+    background: var(---003336) 0% 0% no-repeat padding-box;
+    background: #003336 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #0000001C;
+    border-radius: 100px;
+    border: 0;
+    font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/19px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---ffffff);
+    text-align: center;
+    font: normal normal bold 16px/19px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.olvidaste {
+    /* Layout Properties */
+    position: absolute;
+    top: 27.375rem;
+    left: 8.5rem;
+    width: 11.68rem;
+    height: 1.125rem;
+
+    /* UI Properties */
+    font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-14)/18px Montserrat;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---001b24);
+    text-align: left;
+    font: normal normal 600 14px/18px Montserrat;
+    letter-spacing: 0px;
+    color: #001B24;
+    opacity: 1;
+}
